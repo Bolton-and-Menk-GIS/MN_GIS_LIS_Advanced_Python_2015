@@ -1,0 +1,727 @@
+{
+  "displayFieldName" : "Name",
+  "fieldAliases" : {
+    "OBJECTID" : "OBJECTID",
+    "StationID" : "StationID",
+    "Name" : "Name",
+    "Address" : "Address",
+    "City" : "City",
+    "Zip" : "Zip",
+    "Station" : "Station",
+    "WiFi" : "WiFi",
+    "Latitude" : "Latitude",
+    "Longitude" : "Longitude"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 102113
+  },
+  "fields" : [
+    {
+      "name" : "OBJECTID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "OBJECTID"
+    },
+    {
+      "name" : "StationID",
+      "type" : "esriFieldTypeString",
+      "alias" : "StationID",
+      "length" : 255
+    },
+    {
+      "name" : "Name",
+      "type" : "esriFieldTypeString",
+      "alias" : "Name",
+      "length" : 255
+    },
+    {
+      "name" : "Address",
+      "type" : "esriFieldTypeString",
+      "alias" : "Address",
+      "length" : 255
+    },
+    {
+      "name" : "City",
+      "type" : "esriFieldTypeString",
+      "alias" : "City",
+      "length" : 255
+    },
+    {
+      "name" : "Zip",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "Zip"
+    },
+    {
+      "name" : "Station",
+      "type" : "esriFieldTypeString",
+      "alias" : "Station",
+      "length" : 255
+    },
+    {
+      "name" : "WiFi",
+      "type" : "esriFieldTypeString",
+      "alias" : "WiFi",
+      "length" : 255
+    },
+    {
+      "name" : "Latitude",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Latitude"
+    },
+    {
+      "name" : "Longitude",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Longitude"
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "OBJECTID" : 1,
+        "StationID" : "ALN",
+        "Name" : "Alton",
+        "Address" : "3400 College Avenue",
+        "City" : "Alton",
+        "Zip" : 62002,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 38.904722999999997,
+        "Longitude" : -90.136275999999995
+      },
+      "geometry" : {
+        "x" : -10033924.346321963,
+        "y" : 4708033.1341741746
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 2,
+        "StationID" : "CDL",
+        "Name" : "Carbondale",
+        "Address" : "401 South Illinois Avenue",
+        "City" : "Carbondale",
+        "Zip" : 62901,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 37.724235,
+        "Longitude" : -89.216628
+      },
+      "geometry" : {
+        "x" : -9931549.5992529094,
+        "y" : 4540542.3787347544
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 3,
+        "StationID" : "CRV",
+        "Name" : "Carlinville",
+        "Address" : "128 Alton Road",
+        "City" : "Carlinville",
+        "Zip" : 62626,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 39.279294999999998,
+        "Longitude" : -89.889275999999995
+      },
+      "geometry" : {
+        "x" : -10006428.432096021,
+        "y" : 4761757.5133119337
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 4,
+        "StationID" : "CEN",
+        "Name" : "Centralia",
+        "Address" : "110 South Oak St.",
+        "City" : "Centralia",
+        "Zip" : 62801,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 38.527531000000003,
+        "Longitude" : -89.136117999999996
+      },
+      "geometry" : {
+        "x" : -9922587.2670491431,
+        "y" : 4654218.6408655122
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 5,
+        "StationID" : "CHM",
+        "Name" : "Champaign, IL - Urbana",
+        "Address" : "45 East University Avenue",
+        "City" : "Champaign",
+        "Zip" : 61820,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 40.115842999999998,
+        "Longitude" : -88.241365999999999
+      },
+      "geometry" : {
+        "x" : -9822983.9300228823,
+        "y" : 4882790.5758797033
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 6,
+        "StationID" : "CHI",
+        "Name" : "Chicago, IL - Union Station",
+        "Address" : "225 South Canal Street",
+        "City" : "Chicago",
+        "Zip" : 60606,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 41.878684,
+        "Longitude" : -87.639443
+      },
+      "geometry" : {
+        "x" : -9755978.1681661233,
+        "y" : 5142824.1828948408
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 7,
+        "StationID" : "DVI",
+        "Name" : "Danville, IL - Bus Stop",
+        "Address" : "379 Lynch Road",
+        "City" : "Danville",
+        "Zip" : 61834,
+        "Station" : "Bus Stop",
+        "WiFi" : null,
+        "Latitude" : 40.122053000000001,
+        "Longitude" : -87.540520999999998
+      },
+      "geometry" : {
+        "x" : -9744966.2214978691,
+        "y" : 4883694.5728661232
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 8,
+        "StationID" : "DQN",
+        "Name" : "Du Quoin",
+        "Address" : "20 North Chestnut Street",
+        "City" : "Du Quoin",
+        "Zip" : 62832,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 38.012327999999997,
+        "Longitude" : -89.240253999999993
+      },
+      "geometry" : {
+        "x" : -9934179.6335423905,
+        "y" : 4581167.4922173601
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 9,
+        "StationID" : "DWT",
+        "Name" : "Dwight",
+        "Address" : "119 West Main Street",
+        "City" : "Dwight",
+        "Zip" : 60420,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 41.092981000000002,
+        "Longitude" : -88.427884000000006
+      },
+      "geometry" : {
+        "x" : -9843747.0188066587,
+        "y" : 5026066.0289052138
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 10,
+        "StationID" : "EFG",
+        "Name" : "Effingham",
+        "Address" : "401 West National Avenue",
+        "City" : "Effingham",
+        "Zip" : 62401,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 39.117058999999998,
+        "Longitude" : -88.547110000000004
+      },
+      "geometry" : {
+        "x" : -9857019.1964159813,
+        "y" : 4738453.1675159698
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 11,
+        "StationID" : "GBB",
+        "Name" : "Galesburg",
+        "Address" : "225 South Seminary Street",
+        "City" : "Galesburg",
+        "Zip" : 61401,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 40.944678000000003,
+        "Longitude" : -90.364106000000007
+      },
+      "geometry" : {
+        "x" : -10059286.265909392,
+        "y" : 5004185.1027979143
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 12,
+        "StationID" : "GLM",
+        "Name" : "Gilman",
+        "Address" : "US Highway 24 & West Wenona Street",
+        "City" : "Gilman",
+        "Zip" : 60983,
+        "Station" : "Platform with Shelter",
+        "WiFi" : null,
+        "Latitude" : 40.752547,
+        "Longitude" : -87.998054999999994
+      },
+      "geometry" : {
+        "x" : -9795898.6733984798,
+        "y" : 4975910.6341405464
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 13,
+        "StationID" : "GLN",
+        "Name" : "Glenview",
+        "Address" : "1116 Depot Street",
+        "City" : "Glenview",
+        "Zip" : 60025,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 42.075037999999999,
+        "Longitude" : -87.805561999999995
+      },
+      "geometry" : {
+        "x" : -9774470.4506572075,
+        "y" : 5172226.4083960196
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 14,
+        "StationID" : "HMW",
+        "Name" : "Homewood",
+        "Address" : "18015 Park Avenue",
+        "City" : "Homewood",
+        "Zip" : 60430,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 41.562446000000001,
+        "Longitude" : -87.668684999999996
+      },
+      "geometry" : {
+        "x" : -9759233.3727158997,
+        "y" : 5095659.6614507884
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 15,
+        "StationID" : "JOL",
+        "Name" : "Joliet",
+        "Address" : "50 East Jefferson Street",
+        "City" : "Joliet",
+        "Zip" : 60431,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 41.524521,
+        "Longitude" : -88.079752999999997
+      },
+      "geometry" : {
+        "x" : -9804993.2531573102,
+        "y" : 5090018.967894379
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 16,
+        "StationID" : "KKI",
+        "Name" : "Kankakee",
+        "Address" : "199 South East Ave",
+        "City" : "Kankakee",
+        "Zip" : 60901,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 41.119259,
+        "Longitude" : -87.865430000000003
+      },
+      "geometry" : {
+        "x" : -9781134.9259320199,
+        "y" : 5029948.2852497045
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 17,
+        "StationID" : "KEE",
+        "Name" : "Kewanee",
+        "Address" : "3rd and North Tremont St",
+        "City" : "Kewanee",
+        "Zip" : 61443,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 41.245764999999999,
+        "Longitude" : -89.927543999999997
+      },
+      "geometry" : {
+        "x" : -10010688.406369701,
+        "y" : 5048659.8090781337
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 18,
+        "StationID" : "LAG",
+        "Name" : "La Grange",
+        "Address" : "25 West Burlington Avenue",
+        "City" : "La Grange",
+        "Zip" : 60525,
+        "Station" : "Platform with Shelter",
+        "WiFi" : null,
+        "Latitude" : 41.815634000000003,
+        "Longitude" : -87.871544999999998
+      },
+      "geometry" : {
+        "x" : -9781815.6446182244,
+        "y" : 5133402.1945411302
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 19,
+        "StationID" : "LCN",
+        "Name" : "Lincoln",
+        "Address" : "101 North Chicago Street",
+        "City" : "Lincoln",
+        "Zip" : 62656,
+        "Station" : "Platform with Shelter",
+        "WiFi" : null,
+        "Latitude" : 40.147855,
+        "Longitude" : -89.363698999999997
+      },
+      "geometry" : {
+        "x" : -9947921.4680833649,
+        "y" : 4887451.4848718001
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 20,
+        "StationID" : "MAC",
+        "Name" : "Macomb",
+        "Address" : "120 East Calhoun Street",
+        "City" : "Macomb",
+        "Zip" : 61455,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 40.461212000000003,
+        "Longitude" : -90.670940000000002
+      },
+      "geometry" : {
+        "x" : -10093442.87054746,
+        "y" : 4933192.4542270396
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 21,
+        "StationID" : "MAT",
+        "Name" : "Mattoon",
+        "Address" : "1718 Broadway Avenue",
+        "City" : "Mattoon",
+        "Zip" : 61938,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 39.482729999999997,
+        "Longitude" : -88.376045000000005
+      },
+      "geometry" : {
+        "x" : -9837976.3277234305,
+        "y" : 4791056.2880409677
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 22,
+        "StationID" : "MDT",
+        "Name" : "Mendota",
+        "Address" : "783 Main Street",
+        "City" : "Mendota",
+        "Zip" : 61342,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 41.549584000000003,
+        "Longitude" : -89.117919999999998
+      },
+      "geometry" : {
+        "x" : -9920561.4749556892,
+        "y" : 5093746.2886821544
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 23,
+        "StationID" : "MLI",
+        "Name" : "Moline",
+        "Address" : "1200 River Drive",
+        "City" : "Moline",
+        "Zip" : 61265,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 41.506757999999998,
+        "Longitude" : -90.521103999999994
+      },
+      "geometry" : {
+        "x" : -10076763.203324959,
+        "y" : 5087378.1631117761
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 24,
+        "StationID" : "NPV",
+        "Name" : "Naperville",
+        "Address" : "105 E. Fourth Ave",
+        "City" : "Naperville",
+        "Zip" : 60540,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 41.779513999999999,
+        "Longitude" : -88.145497000000006
+      },
+      "geometry" : {
+        "x" : -9812311.8417600226,
+        "y" : 5128008.717124721
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 25,
+        "StationID" : "BNL",
+        "Name" : "Normal - Bloomington",
+        "Address" : "11 Uptown Circle",
+        "City" : "Normal",
+        "Zip" : 61761,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 40.509010000000004,
+        "Longitude" : -88.984306000000004
+      },
+      "geometry" : {
+        "x" : -9905687.6325128339,
+        "y" : 4940188.2816615338
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 26,
+        "StationID" : "PIA",
+        "Name" : "Peoria",
+        "Address" : "407 Southwest Adams Street",
+        "City" : "Peoria",
+        "Zip" : 61602,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 40.689245,
+        "Longitude" : -89.593870999999993
+      },
+      "geometry" : {
+        "x" : -9973544.0979182404,
+        "y" : 4966612.863744773
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 27,
+        "StationID" : "PLO",
+        "Name" : "Plano",
+        "Address" : "101 West Main Street",
+        "City" : "Plano",
+        "Zip" : 60545,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 41.662384000000003,
+        "Longitude" : -88.538272000000006
+      },
+      "geometry" : {
+        "x" : -9856035.354756346,
+        "y" : 5110539.6029168256
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 28,
+        "StationID" : "PON",
+        "Name" : "Pontiac",
+        "Address" : "721 West Washington Street",
+        "City" : "Pontiac",
+        "Zip" : 61764,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 40.879652,
+        "Longitude" : -88.636600999999999
+      },
+      "geometry" : {
+        "x" : -9866981.2889665626,
+        "y" : 4994606.5347354989
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 29,
+        "StationID" : "PCT",
+        "Name" : "Princeton",
+        "Address" : "107 Bicentennial Drive",
+        "City" : "Princeton",
+        "Zip" : 61356,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 41.385190999999999,
+        "Longitude" : -89.466814999999997
+      },
+      "geometry" : {
+        "x" : -9959400.2886960041,
+        "y" : 5069324.3467715215
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 30,
+        "StationID" : "QCY",
+        "Name" : "Quincy",
+        "Address" : "North 30th Street and Wisman Lane",
+        "City" : "Quincy",
+        "Zip" : 62301,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 39.957062999999998,
+        "Longitude" : -91.368525000000005
+      },
+      "geometry" : {
+        "x" : -10171097.677532487,
+        "y" : 4859704.7520131469
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 31,
+        "StationID" : "RTL",
+        "Name" : "Rantoul",
+        "Address" : "West Sangamon Ave and North Kentucky Ave",
+        "City" : "Rantoul",
+        "Zip" : 61866,
+        "Station" : "Platform with Shelter",
+        "WiFi" : null,
+        "Latitude" : 40.310904999999998,
+        "Longitude" : -88.159126000000001
+      },
+      "geometry" : {
+        "x" : -9813829.0151000414,
+        "y" : 4911225.540012165
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 32,
+        "StationID" : "RCK",
+        "Name" : "Rockford",
+        "Address" : "7559 Walton St.",
+        "City" : "Rockford",
+        "Zip" : 61108,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 42.268844999999999,
+        "Longitude" : -88.96611
+      },
+      "geometry" : {
+        "x" : -9903662.0630583614,
+        "y" : 5201336.5821277127
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 33,
+        "StationID" : "RKI",
+        "Name" : "Rock Island - Bus Stop",
+        "Address" : "3500 5th Avenue",
+        "City" : "Rock Island",
+        "Zip" : 61201,
+        "Station" : "Curbside Bus Stop only (no shelter)",
+        "WiFi" : null,
+        "Latitude" : 41.506222999999999,
+        "Longitude" : -90.550388999999996
+      },
+      "geometry" : {
+        "x" : -10080023.194612836,
+        "y" : 5087298.6365179708
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 34,
+        "StationID" : "BET",
+        "Name" : "South Beloit",
+        "Address" : "15766 Manchester Road",
+        "City" : "South Beloit",
+        "Zip" : 61080,
+        "Station" : "Curbside Bus Stop only (no shelter)",
+        "WiFi" : null,
+        "Latitude" : 42.490067000000003,
+        "Longitude" : -88.989115999999996
+      },
+      "geometry" : {
+        "x" : -9906223.079263553,
+        "y" : 5234674.1464929413
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 35,
+        "StationID" : "SPI",
+        "Name" : "Springfield",
+        "Address" : "100 North Third Street",
+        "City" : "Springfield",
+        "Zip" : 62701,
+        "Station" : "Station Building (with waiting room)",
+        "WiFi" : null,
+        "Latitude" : 39.802323000000001,
+        "Longitude" : -89.651383999999993
+      },
+      "geometry" : {
+        "x" : -9979946.4157922305,
+        "y" : 4837257.8402965274
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 36,
+        "StationID" : "SMT",
+        "Name" : "Summit",
+        "Address" : "Archer Avenue and South Center Avenue",
+        "City" : "Summit",
+        "Zip" : 60501,
+        "Station" : "Platform with Shelter",
+        "WiFi" : null,
+        "Latitude" : 41.794911999999997,
+        "Longitude" : -87.809742
+      },
+      "geometry" : {
+        "x" : -9774935.7661287263,
+        "y" : 5130307.59141488
+      }
+    }
+  ]
+}

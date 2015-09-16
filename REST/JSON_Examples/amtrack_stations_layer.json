@@ -1,0 +1,115 @@
+{
+    "drawingInfo": {
+        "labelingInfo": null, 
+        "renderer": {
+            "symbol": {
+                "contentType": "image/png", 
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAexJREFUOI2tkj9oE2EYxn93udY0V++aBktb62AFHSpSRIs4KCgWHLsYB4OhJCLFtSiUUjBosSgi4qDoIBmUCilGNzP4JxRERevoIlotVpvaJE0uzeXuHIqJl14kRZ/p+97v+X487/t9Ev9J0u9FPJEJTSULgRXdctd7eZMi/ggclcf27PK8KYOiCe3Gg1mjsdoc3OYir8P3jMXTJbPq1KDTp7UBfWVQNaRVgoGtEv5DTZQMiy/zBu3vi9z/ZNhQ31KmYmutWjPjPro6Goknskw+0xgJKoT9LQy+WKb/ZnaN3xE0sFnE55W4G0ujFS327Wgg+brAx1md3T1uoE6QJAosLhkEY3lbfb8qENvp/BY1W1MVF+MHN1DQrXKtu6OmvTao2SNyLty6pj6/oK8PBGBZIAj2/boSFQ2L1M8SgUiKx5fbEEWBz1+LRO6kOX+6pX7QwzmTiwslbg17EcXVSJ3tDYyFVabfavWDACaf5Dg76CWdrXxAT5PItUd5R78jqFcWGPKrjFxf5OpMZbhTJ2WunFLom0jXBvXKgvkuZ4kAZw67ef4qb4MAHI/mSA6rhLZL3P5QWk3pFnQbaOJE89zoveWulxmLUNx5Dism7L1USRPodnHsiDx94U9Q/4GNWxxv/0VRIBqpau1f9QvUdaRT5XXlkwAAAABJRU5ErkJggg==", 
+                "width": 13, 
+                "url": "D463F9E7", 
+                "height": 13, 
+                "color": null, 
+                "angle": 0, 
+                "yoffset": 0, 
+                "type": "esriPMS", 
+                "xoffset": 0
+            }, 
+            "type": "simple", 
+            "description": "", 
+            "label": ""
+        }, 
+        "transparency": 0
+    }, 
+    "extent": {
+        "xmin": -10171097.6775325, 
+        "ymin": 4540542.37873475, 
+        "ymax": 5234674.14649294, 
+        "xmax": -9744966.22149787, 
+        "spatialReference": {
+            "wkid": 102113
+        }
+    }, 
+    "subLayers": [], 
+    "id": 0, 
+    "relationships": [], 
+    "parentLayer": null, 
+    "capabilities": "Map,Query,Data", 
+    "currentVersion": 10.03, 
+    "geometryType": "esriGeometryPoint", 
+    "type": "Feature Layer", 
+    "description": "", 
+    "definitionExpression": "", 
+    "defaultVisibility": true, 
+    "typeIdField": null, 
+    "minScale": 0, 
+    "types": null, 
+    "displayField": "Name", 
+    "name": "STATIONS", 
+    "hasAttachments": false, 
+    "fields": [
+        {
+            "alias": "OBJECTID", 
+            "type": "esriFieldTypeOID", 
+            "name": "OBJECTID"
+        }, 
+        {
+            "alias": "StationID", 
+            "length": 255, 
+            "type": "esriFieldTypeString", 
+            "name": "StationID"
+        }, 
+        {
+            "alias": "Name", 
+            "length": 255, 
+            "type": "esriFieldTypeString", 
+            "name": "Name"
+        }, 
+        {
+            "alias": "Address", 
+            "length": 255, 
+            "type": "esriFieldTypeString", 
+            "name": "Address"
+        }, 
+        {
+            "alias": "City", 
+            "length": 255, 
+            "type": "esriFieldTypeString", 
+            "name": "City"
+        }, 
+        {
+            "alias": "Zip", 
+            "type": "esriFieldTypeInteger", 
+            "name": "Zip"
+        }, 
+        {
+            "alias": "Station", 
+            "length": 255, 
+            "type": "esriFieldTypeString", 
+            "name": "Station"
+        }, 
+        {
+            "alias": "WiFi", 
+            "length": 255, 
+            "type": "esriFieldTypeString", 
+            "name": "WiFi"
+        }, 
+        {
+            "alias": "Latitude", 
+            "type": "esriFieldTypeDouble", 
+            "name": "Latitude"
+        }, 
+        {
+            "alias": "Longitude", 
+            "type": "esriFieldTypeDouble", 
+            "name": "Longitude"
+        }, 
+        {
+            "alias": "Shape", 
+            "type": "esriFieldTypeGeometry", 
+            "name": "Shape"
+        }
+    ], 
+    "maxScale": 0, 
+    "copyrightText": "", 
+    "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText"
+}

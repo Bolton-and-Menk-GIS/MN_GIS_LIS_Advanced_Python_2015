@@ -1,0 +1,63 @@
+{
+    "layers": [
+        {
+            "name": "STATIONS", 
+            "maxScale": 0, 
+            "defaultVisibility": true, 
+            "parentLayerId": -1, 
+            "id": 0, 
+            "minScale": 0, 
+            "subLayerIds": null
+        }, 
+        {
+            "name": "AMTRAK", 
+            "maxScale": 0, 
+            "defaultVisibility": true, 
+            "parentLayerId": -1, 
+            "id": 1, 
+            "minScale": 0, 
+            "subLayerIds": null
+        }
+    ], 
+    "tables": [], 
+    "description": "", 
+    "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP", 
+    "initialExtent": {
+        "xmin": -10074352.4345719, 
+        "ymin": 4933362.51380717, 
+        "ymax": 5054019.43670154, 
+        "xmax": -9938849.5815675, 
+        "spatialReference": {
+            "wkid": 102113
+        }
+    }, 
+    "capabilities": "Map,Query,Data", 
+    "copyrightText": "", 
+    "mapName": "Layers", 
+    "currentVersion": 10.03, 
+    "documentInfo": {
+        "Category": "", 
+        "Author": "", 
+        "TextAntialiasingMode": "Force", 
+        "Title": "", 
+        "Comments": "", 
+        "AntialiasingMode": "None", 
+        "Keywords": "", 
+        "Subject": ""
+    }, 
+    "units": "esriMeters", 
+    "fullExtent": {
+        "xmin": -10171097.6775325, 
+        "ymin": 4540542.37873475, 
+        "ymax": 5234674.14649294, 
+        "xmax": -9744966.22149787, 
+        "spatialReference": {
+            "wkid": 102113
+        }
+    }, 
+    "singleFusedMapCache": false, 
+    "spatialReference": {
+        "wkid": 102113
+    }, 
+    "serviceDescription": ""
+}

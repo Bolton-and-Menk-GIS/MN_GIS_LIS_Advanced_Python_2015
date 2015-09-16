@@ -1,0 +1,12 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>Clip LiDar DEM</Name><AddInID>{c30a99c4-466a-4bd1-b53e-75f5cd5ac1a6}</AddInID><Description>Clips LiDar DEM from MPCA Image Service</Description><Version>0.1</Version><Image /><Author>Caleb Mackey</Author><Company>Bolton &amp; Menk, Inc</Company><Date>01/22/2015</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="ClipLidarDEM_addin.py" namespace="ClipLidarDEM_addin"><ArcMap>
+    <Commands>
+        <Tool caption="Clip LiDar DEM" category="Clip LiDar DEM" class="Clip" id="ClipLidarDEM_addin.tool" image="" message="Draw a Rectangle to Clip LiDar DEM" tip="Draw a Rectangle to Clip LiDar DEM"><Help heading="Draw a Rectangle to Clip LiDar DEM">Draw a Rectangle to Clip LiDar DEM</Help></Tool>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="Clip LiDar DEM" category="Clip LiDar DEM" id="ClipLidarDEM_addin.toolbar" showInitially="true"><Items><Tool refID="ClipLidarDEM_addin.tool" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
